@@ -1,0 +1,30 @@
+name: tintin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  provider: ^6.1.2
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  location: ^7.0.1
+  flutter_map_marker_popup: ^7.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - data/
